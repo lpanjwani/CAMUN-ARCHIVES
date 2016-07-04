@@ -1,0 +1,72 @@
+/* Button */
+    .button {
+      display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #646464;
+    }
+    
+    .button > paper-ripple {
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    
+    .button.narrow {
+      width: 60px;
+    }
+    
+    .button.grey {
+      background-color: #eee;
+    }
+    
+    .button.one {
+      background-color: #D50000;
+      color: #fff;
+    }
+	.button.two {
+      background-color: #FF3D00;
+      color: #fff;
+    }
+	.button.three {
+      background-color: #00E676;
+      color: #fff;
+    }
+	.button.four {
+      background-color: #2196F3;
+      color: #fff;
+    }
+    .button.five {
+      background-color: #FFC400;
+      color: #fff;
+    }
+    .button.six {
+      background-color: #3F51B5;
+      color: #fff;
+     }
+     .button.seven {
+      background-color: #0091EA;
+      color: #fff;
+    }
+    .button.green {
+      background-color: #0f9d58;
+      color: #fff;
+    }
+    
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+     .center {
+      text-align: center;
+    }

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<photoCollection mode="publish">
+<display>
+<style cellBorderColor="#787878" cellRolloverColor="#a1a1a1" cssVersion="133528316036315118" idplateEnabled="false" css="&#xA;				#previewFull {background-color: #666666 !important; width: 910px !important; color: inherit}&#xA;				#liveUpdateContactInfo {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.borderRightDotted {border-right: 1px dotted #787878 !important;}&#xA;				.logo {display: none !important;}&#xA;				#liveUpdateCollectionDescription {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.detailNav, .detailLinks, #detailCaption, #detailTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.emptyThumbnail {background-color: #949494 !important; color: inherit;}&#xA;				.thumbnail {background-color: #949494 !important; color: inherit;}&#xA;				.previewFullImage {height: 880px !important; width: 910px !important;}&#xA;				#stage2 {width: 910px !important;}&#xA;				.itemNumber {display: inherit !important; color: #9c9c9c !important; background-color: inherit;}&#xA;				#content {background-color: #4c4c4c !important; color: inherit;}&#xA;				.borderTopLeft {border-top: 1px solid #787878 !important; border-left: 1px solid #787878 !important;}&#xA;				#stage {width: 484px !important;}&#xA;				.caption {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#wrapper2 {width: 910px !important;}&#xA;				.borderBottomRight {border-right: 1px solid #787878 !important; border-bottom: 1px solid #787878 !important;}&#xA;				#wrapper {width: 484px !important;}&#xA;				#liveUpdateCollectionTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.paginationLinks, .pagination, #liveUpdatePagination {color: #b3b3b3 !important; background-color: inherit;}&#xA;				.selectedThumbnail, .thumbnail:hover {background-color: #a1a1a1 !important; color: inherit;}&#xA;				#liveUpdateSiteTitle {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#thumbnailName {color: #b3b3b3 !important; background-color: inherit;}&#xA;				#largeName {color: #b3b3b3 !important; background-color: inherit; margin-top: 10px; margin-left: 7px; margin-right: 7px;}&#xA;				.borderBottom {border-bottom: 1px solid #787878 !important;}&#xA;				.borderRight {border-right: 1px solid #787878 !important;}&#xA;				body {background-color: #4c4c4c !important; color: inherit;}&#xA;			" identityPlateAbsolutePath="" numCols="3" numRows="3" homePage="index.html" imageBase="content" cellColor="#949494">
+</style>
+<metadata>
+<creationDate formatted="Tue Apr 24 2012 19:59:20 GMT+0400"></creationDate>
+<groupTitle value=""></groupTitle>
+<contactInfo value="" link=""></contactInfo>
+<siteTitle value=""></siteTitle>
+<groupDescription value=""></groupDescription>
+</metadata>
+<localization>
+<item id="AdobeLightroomWebSite" localized="http://labs.adobe.com/technologies/lightroom/"></item>
+<item id="AdobeLightroomBeta" localized="Adobe Lightroom Beta"></item>
+<item id="Fullsize" localized="Fullsize"></item>
+<item id="Next" localized="Next"></item>
+<item id="Previous" localized="Previous"></item>
+<item id="EmptyGallery" localized="There are no images in this gallery."></item>
+<item id="more" localized="more"></item>
+<item id="Index" localized="Index"></item>
+</localization>
+</display>
+<head>
+<siteTitle></siteTitle>
+<collectionName></collectionName>
+<collectionTitle></collectionTitle>
+<collectionDescription></collectionDescription>
+<contactInfo></contactInfo>
+<slideDuration></slideDuration>
+<sizes>
+<size name="large" height="880" width="880"></size>
+<size name="thumb" height="129" width="129"></size>
+</sizes>
+</head>
+<samples totalGallerySize="5" firstSampleIndex="1">
+<img orientation="BC" imageID="0_1335283160366" filename="_9542364888" tipname="%_tempFileName_9542364888%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_9542364888.jpg" height="712" width="880" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9542364888.jpg" height="104" width="129" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="1_1335283160367" filename="_8926063700" tipname="%_tempFileName_8926063700%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_8926063700.jpg" height="880" width="519" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_8926063700.jpg" height="129" width="76" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="2_1335283160369" filename="_3875326879" tipname="%_tempFileName_3875326879%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_3875326879.jpg" height="880" width="609" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_3875326879.jpg" height="129" width="89" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="3_1335283160370" filename="_3366419304" tipname="%_tempFileName_3366419304%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_3366419304.jpg" height="880" width="879" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_3366419304.jpg" height="129" width="128" size="thumb"></rendition>
+</img>
+<img orientation="BC" imageID="4_1335283160371" filename="_9504558170" tipname="%_tempFileName_9504558170%">
+<text>
+<title></title>
+<description></description>
+</text>
+<rendition path="content/bin/images/large/_9504558170.jpg" height="348" width="880" size="large"></rendition>
+<rendition path="content/bin/images/thumb/_9504558170.jpg" height="51" width="129" size="thumb"></rendition>
+</img>
+</samples>
+<siteParams>
+<firstImage index="1"></firstImage>
+<lastImage index="5"></lastImage>
+<mode value="all"></mode>
+</siteParams>
+</photoCollection>

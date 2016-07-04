@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Disallow: /Archive-2015
+Disallow: /Archive-2014
+Disallow: /Archive-2013
+Disallow: /Archive-2012
+
+Sitemap: http://www.cambridgemun.org/sitemap.xml

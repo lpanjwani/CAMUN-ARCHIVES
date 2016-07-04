@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+<head>
+<link rel="icon" href="Image/Favicon.png" sizes="32x32">
+
+<link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
+  <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+  <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+   <link rel="import" href="http://www.polymer-project.org/components/paper-fab/paper-fab.html" >
+   
+  <script src="http://www.polymer-project.org/components/webcomponentsjs/webcomponents.js/webcomponentsjs/webcomponents.js"></script>
+  
+<meta charset="utf-8">
+<title>Details</title>
+<style type="text/css">
+body {
+	margin: 0 auto;
+	background-image:url(Image/97491%20zoom.jpg);
+}
+
+.ShamaPic {
+	position:fixed;
+	height: 720px;
+	width:34%;
+	background-repeat:no-repeat;
+}
+.ShamaNote {
+	margin-top: 30px;
+}
+#apDiv1 {
+	position: absolute;
+	width: 0px;
+	height: 107px;
+	z-index: 1;
+	left: 474px;
+	top: 414px;
+}
+#MenuBar {
+	width:700px;
+	height:44px;
+	margin-left:320px;
+	margin-top:20px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 762px;
+	height: 325px;
+	z-index: 1;
+	left: 524px;
+	top: 7px;
+	overflow: hidden;
+}
+#apDiv3 {	position: absolute;
+	width: 762px;
+	height: 325px;
+	z-index: 1;
+	left: 323px;
+	top: 30px;
+	overflow: hidden;
+}
+#apDiv4 {	position: absolute;
+	width: 762px;
+	height: 325px;
+	z-index: 1;
+	left: 323px;
+	top: 30px;
+	overflow: hidden;
+}
+#apDiv5 {
+	position:absolute;
+	left:909px;
+	top:6px;
+	width:91px;
+	height:50px;
+	z-index:1;
+}
+#apDiv6 {
+	position:absolute;
+	left:825px;
+	top:9px;
+	width:142px;
+	height:34px;
+	z-index:1;
+}
+paper-fab {
+      color: #fff;
+      margin-right:2em;
+    }
+
+    paper-fab.blue {
+      background: #5677fc;
+    }
+
+    paper-fab.green {
+      background: #259b24;
+    }
+
+    paper-fab.yellow {
+      background: #ffeb3b;
+    }
+
+    .button {
+      display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #646464;
+    }
+    
+    .button > paper-ripple {
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    
+    .button.narrow {
+      width: 60px;
+    }
+    
+    .button.grey {
+      background-color: #eee;
+    }
+    
+    .button.blue {
+      background-color: #4285f4;
+      color: #fff;
+    }
+    
+    .button.green {
+      background-color: #0f9d58;
+      color: #fff;
+    }
+    
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .button.raised:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    /* Icon Button */
+    .icon-button {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+    }
+    
+    .icon-button > core-icon {
+      margin: 16px;
+      transition: -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-button:hover > core-icon {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+    
+    .icon-button > paper-ripple {
+      overflow: hidden;
+      color: #646464;
+    }
+    
+    .icon-button.red > core-icon::shadow path {
+      fill: #db4437;
+    }
+    
+    .icon-button.red > paper-ripple {
+      color: #db4437;
+    }
+    
+    .icon-button.blue > core-icon::shadow path {
+      fill: #4285f4;
+    }
+    
+    .icon-button.blue > paper-ripple {
+      color: #4285f4;
+    }
+    
+    /* FAB */
+    .fab {
+      position: relative;
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      color: #fff;
+      overflow: hidden;
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .fab.red {
+      background-color: #d23f31;
+    }
+    
+    .fab.blue {
+      background-color: #4285f4;
+    }
+    
+    .fab.green {
+      background-color: #0f9d58;
+    }
+    
+    .fab:active {
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+      transition-delay: 0s;
+    }
+    
+    .fab > core-icon {
+      margin: 16px;
+    }
+    
+    .fab > core-icon::shadow path {
+      fill: #fff;
+    }
+    
+    /* Menu */
+    .menu {
+      display: inline-block;
+      width: 180px;
+      background-color: #fff;
+      box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .item {
+      position: relative;
+      height: 48px;
+      line-height: 48px;
+      color: #646464;
+      font-size: 0.9em;
+    }
+    
+    .menu.blue > .item {
+      color: #4285f4;
+    }
+    
+    /* Card, Dialog */
+    .card, .dialog {
+      position: relative;
+      display: inline-block;
+      width: 300px;
+      height: 240px;
+      vertical-align: top;
+      background-color: #fff;
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+    }
+    
+    .dialog {
+      box-sizing: border-box;
+      padding: 16px;
+    }
+    
+    .dialog > .content {
+      height: 170px;
+      font-size: 0.9em;
+    }
+    
+    .dialog > .content > .title {
+      font-size: 1.3em;
+    }
+    
+    .dialog > .button {
+      width: 90px;
+      float: right;
+    }
+    
+    .card.image {
+      background: url(http://lorempixel.com/300/240/nature/);
+      color: #fff;
+    }
+    
+    /* Misc */
+    .center {
+      text-align: center;
+    }
+    
+    .label {
+      padding: 0 16px;
+    }
+    
+    .label-blue {
+      color: #4285f4; 
+    }
+    
+    .label-red {
+      color: #d23f31; 
+    }
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55943194-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<div id="apDiv6"><a href="index.html"><img src="Image/CAMUN-logo-OFF.gif" alt="" width="68" align="right" height="76"></a></div>
+<table width="100%" height="720px" border="0" background="Image/97491 zoom.jpg">
+  <tr>
+    <td width="37%" background="Image/comt.jpg" class="ShamaPic">&nbsp;</td>
+    <td width="63%" height="500px" class="ShamaNote"><!-- Menus will work without this javascript file. It is used only for extra
+     effects, improved usability, compatibility with very old web browsers
+     and support for touch screen devices. -->
+      <p>
+        <script type="text/javascript" src="menufiles/mbjsmbrfzq.js"></script><strong></strong> </p>
+      <h1><center>
+        <p><strong>CAMUN 2015 Conference Details</strong></p>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6312.6492273493795!2d54.375976791427796!3d24.476848368957974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xb678baaf88894a44!2sAbu+Dhabi+Womens+College!5e1!3m2!1sen!2s!4v1419931712929" width="400" height="300" frameborder="0" style="border:0"></iframe>
+      </p>
+      </center>
+      </h1>
+      <p><center></center></p>
+      
+    <div class="button raised blue">
+      <div class="center" fit><a href="http://www.adwc.hct.ac.ae/college/vt/adwc/flash/hct_adwc_flash4.html" style="text-decoration:none">Virtual Tour</a></div>
+      <a href="http://www.adwc.hct.ac.ae/college/vt/adwc/flash/hct_adwc_flash4.html">
+      <paper-ripple fit></paper-ripple>
+      </a> </div>
+    
+      <div class="button raised blue" float: right">
+      <div class="center" fit><a href="Schedule-CAMUN 2015.pdf" style="text-decoration:none">Schedule</a></div>
+      <a href="Schedule-CAMUN 2015.pdf">
+      <paper-ripple fit></paper-ripple>
+      </a> </div>
+     <div class="button raised blue" float: right">
+      <div class="center" fit><a href="MUN LETTER.pdf" style="text-decoration:none">Timings</a></div>
+      <a href="MUN LETTER.pdf">
+      <paper-ripple fit></paper-ripple>
+      </a> </div>
+      <br>
+      <div class="button raised blue" >
+      <div class="center" fit ><a href="Guides/THIMUN Study Guide.pdf" style="text-decoration:none">MUN Guide</a></div>
+      <a href="Guides/THIMUN Study Guide.pdf">
+      <paper-ripple fit></paper-ripple>
+      </a> </div>
+      
+      <div class="button raised blue" float: right">
+      <div class="center" fit><a href="Guides/Checklist .pdf" style="text-decoration:none">Checklist</a></div>
+      <a href="Guides/Checklist .pdf">
+      <paper-ripple fit></paper-ripple>
+      </a> </div>
+       <div class="button raised blue" float: right">
+      <div class="center" fit><a href="Printable Location Map.pdf" style="text-decoration:none">Printable Map</a></div>
+      <a href="Printable Location Map.pdf">
+      <paper-ripple fit></paper-ripple>
+      </a> </div>
+      <h4>Study guides are available on respective committee pages</h4>
+       <h4>Use #camunready frequently and win exciting prizes! For More Information visit our facebook page</h4>
+      </td>
+  </tr>
+</table>
+
+</body>
+</html>
+

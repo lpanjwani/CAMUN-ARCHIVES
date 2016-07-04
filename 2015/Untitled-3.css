@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	font:Tahoma, Geneva, sans-serif;
+	color:#900;
+	font-size:28px;
+}
+h2 {
+	font: "MS Serif", "New York", serif;
+	color:#000;
+	font-size:20px;
+}
+h3 {
+	font:"Times New Roman", Times, serif;
+	font-size:20px;
+
+	
+}
